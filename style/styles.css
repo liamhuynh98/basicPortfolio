@@ -1,14 +1,66 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
 }
 
 .landing-page {
-  height : 100vh; 
+  height: 100vh;
   width: 100%;
   background-image: url(../img/landing_wallpaper.jpg);
   background-size: cover;
-  background-position: center; 
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+span {
+  color: yellow;
+}
+nav ul li a {
+  text-decoration: none;
+  color: wheat;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  transition: 0.5s;
+  color: turquoise;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: aqua;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  transition: transform 0.4s;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  transform: scale(1.3);
 }
